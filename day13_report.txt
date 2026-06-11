@@ -1,0 +1,17 @@
+# Nmap 7.94SVN scan initiated Thu Jun 11 13:27:44 2026 as: nmap -sV -sC -p22,80 -oN /home/alexkane/day13_report.txt 192.168.229.20
+Nmap scan report for 192.168.229.20
+Host is up (0.00032s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 9.6p1 Ubuntu 3ubuntu13.16 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 56:bb:ff:63:0e:39:d6:8b:e7:c3:7e:53:7d:5e:49:5e (ECDSA)
+|_  256 21:30:65:e6:ad:ca:ae:79:53:da:26:20:17:c7:8b:00 (ED25519)
+80/tcp open  http    nginx 1.24.0 (Ubuntu)
+|_http-server-header: nginx/1.24.0 (Ubuntu)
+|_http-title: Welcome to nginx!
+MAC Address: 00:0C:29:0C:AA:5B (VMware)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Jun 11 13:27:56 2026 -- 1 IP address (1 host up) scanned in 11.45 seconds
