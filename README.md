@@ -1,6 +1,6 @@
 # Nmap Lab
 
-## tool
+## tools
 - nmap
 - Python + python-nmap
 - Wireshark / tcpdump
