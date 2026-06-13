@@ -1,15 +1,15 @@
 # Nmap Lab
 
-14天 nmap 學習實驗室
-
-## 工具
+## tool
 - nmap
 - Python + python-nmap
 - Wireshark / tcpdump
 
-## 環境
-- 攻擊機：Ubuntu 192.168.229.10
-- 目標機：Ubuntu 192.168.229.20
+## background
+- attack：Ubuntu 192.168.229.10
+- target：Ubuntu 192.168.229.20
 
-## 腳本
-- scan2.py：自動掃描子網，輸出版本和狀態報告
+## script
+- scan2.py：scan the whole subnet which you are from，and output the alive host and the status of their ports💀💀
+- you can custom this things with some info scanner script to reach your goal
+- thanks for watching!!
